@@ -1,8 +1,5 @@
 package feast.models;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Duck2 {
 
     private Chicken3 chicken3;
