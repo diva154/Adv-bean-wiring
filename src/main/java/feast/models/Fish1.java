@@ -5,11 +5,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Fish1 {
+
+    //field injection
     @Autowired
     private Duck2 duck2;
 
     @Override
     public String toString() {
-        return "of a rabbit inside of a duck, " + duck2.toString();
+        return "which is inside of TraditionalFeast" + duck2.toString();
     }
 }

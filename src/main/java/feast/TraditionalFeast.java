@@ -12,7 +12,7 @@ public class TraditionalFeast {
     public String getTraditionalFeast() {
         return "Traditional Bedouin Wedding Feast consists of stuffing " + fish.toString();
     }
-
+//setter injection
     @Autowired
     public void setFish(Fish1 fish) {
         this.fish = fish;

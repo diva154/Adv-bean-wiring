@@ -1,9 +1,8 @@
 package feast.models;
 
 public class Duck2 {
-
     private Chicken3 chicken3;
-
+//bean injection via AppConfig
     public Duck2(Chicken3 chicken3) {
         this.chicken3 = chicken3;
     }
