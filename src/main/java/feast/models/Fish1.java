@@ -6,7 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Fish1 {
 
-    //field injection
+    //field injection, does not need constructor
+    //Spring injects dependencies directly into private fields using Java Reflection,
+    // completely bypassing constructors or setter methods.
     @Autowired
     private Duck2 duck2;
 

@@ -1,8 +1,12 @@
 package feast.models;
 
-public class Duck2 {
-    private Chicken3 chicken3;
 //bean injection via AppConfig
+//Instead of relying on @Component scanning, we explicitly define beans inside
+// a @Configuration class using @Bean annotated methods.
+//Spring automatically injects parameters declared in the method signature.
+public class Duck2 {
+    private final Chicken3 chicken3;
+
     public Duck2(Chicken3 chicken3) {
         this.chicken3 = chicken3;
     }

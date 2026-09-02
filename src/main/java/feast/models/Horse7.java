@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Horse7 {
     private final Camel8 camel8;
 //Constructor injection
-
+//Dependencies are provided through a class constructor when the object is instantiated.
     @Autowired
     public Horse7(Camel8 camel8) {
         this.camel8 = camel8;

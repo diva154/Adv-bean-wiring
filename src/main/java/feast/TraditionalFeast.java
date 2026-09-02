@@ -13,6 +13,7 @@ public class TraditionalFeast {
         return "Traditional Bedouin Wedding Feast consists of stuffing " + fish.toString();
     }
 //setter injection
+    //Spring injects dependencies via public setter methods marked with @Autowired.
     @Autowired
     public void setFish(Fish1 fish) {
         this.fish = fish;

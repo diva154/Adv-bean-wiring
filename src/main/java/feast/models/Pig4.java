@@ -8,6 +8,7 @@ public class Pig4 {
     private Lamb5 lamb5;
 
     //add annotation @autowired and setter injection
+    //Spring injects dependencies via public setter methods marked with @Autowired.
     @Autowired
     public void setLamb5(Lamb5 lamb5) {
         this.lamb5 = lamb5;

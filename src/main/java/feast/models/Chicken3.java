@@ -8,6 +8,7 @@ public class Chicken3 {
 
     private final Pig4 pig4;
 //constructor injection
+    //Dependencies are provided through a class constructor when the object is instantiated.
     @Autowired
     public Chicken3(Pig4 pig4) {
         this.pig4 = pig4;
